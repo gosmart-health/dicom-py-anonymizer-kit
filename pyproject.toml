@@ -1,0 +1,13 @@
+[project]
+name = "dicom-py-anonymizer-kit"
+version = "0.1.0"
+description = "Utilities for anonymizing DICOM data."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+	"pydantic>=2.12.5",
+	"pydicom>=3.0.1",
+]
+
+[project.scripts]
+dicom-py-anonymizer-kit = "main:main"
