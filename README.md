@@ -22,6 +22,8 @@ profiles. The `lib/` package contains the DICOM URL builder and HTML scraper.
 `pydicom` is included as a project dependency for the DICOM processing work that
 will consume these profiles.
 
+The resulting JSON file is used in [dicom-rs-transfomer](https://github.com/gosmart-health/dicom-rs-transformer) to perfom de-identification transformation step.
+
 ## Developer setup
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) first,
